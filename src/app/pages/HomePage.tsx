@@ -45,7 +45,7 @@ export function HomePage() {
   ];
 
   const stats = [
-    { value: '500+', label: 'Étudiants formés' },
+    { value: '1000+', label: 'Étudiants formés' },
     { value: '10+', label: 'Projets soutenus' },
     { value: '5', label: 'Villes couvertes' },
     { value: '10+', label: 'Partenaires' }
