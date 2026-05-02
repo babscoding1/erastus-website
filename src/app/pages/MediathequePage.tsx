@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Image as ImageIcon, Calendar, Users, Handshake } from 'lucide-react';
 import { useState } from 'react';
+import { images } from '@/assets/images';
 
 export function MediathequePage() {
   const [activeCategory, setActiveCategory] = useState('Tous');
@@ -27,7 +28,7 @@ export function MediathequePage() {
       date: 'Février 2025'
     },
     {
-      src: 'https://images.unsplash.com/photo-1528901166007-3784c7dd3653?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIweW91dGglMjBjb2RpbmclMjBjbGFzc3Jvb218ZW58MXx8fHwxNzc2NDE1NzQwfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      src: images.sessionCoding,
       title: 'Session Coding',
       category: 'Formations',
       date: 'Janvier 2025'
@@ -39,25 +40,25 @@ export function MediathequePage() {
       date: 'Décembre 2024'
     },
     {
-      src: 'https://images.unsplash.com/photo-1523396140703-e5bdad4e5dea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwY2hpbGRyZW4lMjBjb21wdXRlciUyMGxlYXJuaW5nfGVufDF8fHx8MTc3NjQxNTc0MXww&ixlib=rb-4.1.0&q=80&w=1080',
+      src: images.enfant_prog,
       title: 'Initiation Programmation Enfants',
       category: 'Enfants',
       date: 'Novembre 2024'
     },
     {
-      src: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwYnVzaW5lc3MlMjBwYXJ0bmVycyUyMGhhbmRzaGFrZXxlbnwxfHx8fDE3NzY0MTU3NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      src: images.partenriat_senegel,
       title: 'Signature Partenariat',
       category: 'Partenariats',
       date: 'Octobre 2024'
     },
     {
-      src: 'https://images.unsplash.com/photo-1594098882270-66ce9399b040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwc3RhcnR1cCUyMHRlYW0lMjBjb2xsYWJvcmF0aW9ufGVufDF8fHx8MTc3NjQxNTc0Mnww&ixlib=rb-4.1.0&q=80&w=1080',
+      src: images.entrepreneurs,
       title: 'Équipe Innovation',
       category: 'Événements',
       date: 'Septembre 2024'
     },
     {
-      src: 'https://images.unsplash.com/photo-1742934029515-75366d86af3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwd29tZW4lMjB0ZWNobm9sb2d5JTIwdHJhaW5pbmd8ZW58MXx8fHwxNzc2NDE1NzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      src: images.femmeNum,
       title: 'Formation Femmes Tech',
       category: 'Formations',
       date: 'Août 2024'

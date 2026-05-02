@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router';
 import { Code, Palette, TrendingUp, Brain, Clock, Award, CheckCircle, ArrowRight, Users } from 'lucide-react';
+import { images } from "../../assets/images";
 
 export function TrainingPage() {
   const programs = [
@@ -135,7 +136,7 @@ export function TrainingPage() {
               className="relative hidden lg:block"
             >
               <img
-                src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIweW91dGglMjB0ZWNobm9sb2d5JTIwdHJhaW5pbmclMjBjb21wdXRlcnxlbnwxfHx8fDE3NzYxNzIxODB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src={images.mendy}
                 alt="Training Program"
                 className="rounded-2xl shadow-2xl"
               />
@@ -260,7 +261,7 @@ export function TrainingPage() {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1632215861513-130b66fe97f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxBZnJpY2FuJTIwc3R1ZGVudHMlMjBsZWFybmluZyUyMGNsYXNzcm9vbXxlbnwxfHx8fDE3NzYxNzIxODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src={images.formation2}
                 alt="Students learning"
                 className="rounded-2xl shadow-2xl"
               />
@@ -268,7 +269,7 @@ export function TrainingPage() {
                 <div className="flex items-center gap-3 text-white">
                   <Users size={32} />
                   <div>
-                    <div className="text-3xl font-bold" style={{ fontFamily: 'Poppins, sans-serif' }}>500+</div>
+                    <div className="text-3xl font-bold" style={{ fontFamily: 'Poppins, sans-serif' }}>1000+</div>
                     <div className="text-sm">Étudiants formés</div>
                   </div>
                 </div>

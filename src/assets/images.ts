@@ -12,6 +12,13 @@ import ctic from "../imports/Partenaire ERASTUS/CTIC.jpeg";
 import senegal_service from "../imports/Partenaire ERASTUS/Senegal Service.jpeg";
 import ucao from "../imports/Partenaire ERASTUS/ucao.png";
 import giz from "../imports/Partenaire ERASTUS/GIZ.jpeg";
+import formation from "../imports/formation.jpg";
+import formation2 from "../imports/formation2.jpg";
+import partenriat_senegel from "../imports/partenariat senegel.jpg";
+import entrepreneurs from "../imports/eleve entrepreneur.jpg";
+import femmeNum from "../imports/femmes numerique.jpg";
+import enfant_prog from "../imports/initiation enfant.jpg";
+import sessionCoding from "../imports/session coding.jpg";
 
 
 export const images = {
@@ -28,5 +35,12 @@ export const images = {
   ctic,
   senegal_service,
     ucao,
-    giz
+    giz,
+    formation,
+    formation2,
+    partenriat_senegel,
+    entrepreneurs,
+    femmeNum,
+    enfant_prog,
+    sessionCoding
 };
