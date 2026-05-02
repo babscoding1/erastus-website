@@ -10,13 +10,13 @@ export function MediathequePage() {
 
   const galleryImages = [
     {
-      src: '/src/imports/ERASTUS_image.jfif',
+      src: images.erastus,
       title: 'Formation Web Development',
       category: 'Formations',
       date: 'Mars 2025'
     },
     {
-      src: '/src/imports/couverture_facebook.jpg',
+      src: images.couverture,
       title: 'Couverture Activités',
       category: 'Événements',
       date: 'Avril 2025'
