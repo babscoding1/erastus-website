@@ -12,6 +12,7 @@ import ctic from "../imports/Partenaire ERASTUS/CTIC.jpeg";
 import senegal_service from "../imports/Partenaire ERASTUS/Senegal Service.jpeg";
 import ucao from "../imports/Partenaire ERASTUS/ucao.png";
 import giz from "../imports/Partenaire ERASTUS/GIZ.jpeg";
+import ensemble_formation from "../imports/ensemble formation.jpg";
 import formation from "../imports/formation.jpg";
 import formation2 from "../imports/formation2.jpg";
 import partenriat_senegel from "../imports/partenariat senegel.jpg";
@@ -56,5 +57,6 @@ export const images = {
     startup,
     pme,
     ong,
-    institution
+    institution,
+    ensemble_formation
 };

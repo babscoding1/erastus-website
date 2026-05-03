@@ -15,7 +15,7 @@ export function TrainingPage() {
     },
     {
       icon: Code,
-      title: 'Développement Web & Mobile',
+      title: 'Développement Web et Maintenance',
       duration: '6 mois',
       description: 'Créez des applications web et mobile professionnelles avec les technologies les plus demandées.',
       modules: ['HTML/CSS/JavaScript', 'React & React Native', 'Node.js', 'Bases de données', 'API Development'],
@@ -23,7 +23,7 @@ export function TrainingPage() {
     },
     {
       icon: Palette,
-      title: 'Design Graphique',
+      title: 'Infographie et Montage vidéos',
       duration: '2 mois',
       description: 'Apprenez à créer des visuels impactants avec les outils professionnels de l\'industrie.',
       modules: ['Adobe Illustrator', 'Adobe Photoshop', 'Figma', 'UI/UX Design', 'Branding'],
@@ -176,7 +176,7 @@ export function TrainingPage() {
               className="relative hidden lg:block"
             >
               <img
-                src={images.mendy}
+                src={images.ensemble_formation}
                 alt="Training Program"
                 className="rounded-2xl shadow-2xl"
               />

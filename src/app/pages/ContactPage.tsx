@@ -240,7 +240,7 @@ export function ContactPage() {
                 Localisation
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-[#0A2540] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Trouvez-nous à Ziguinchor
+                Trouvez-nous à Ziguinchor au quartier Tilène
               </h2>
             </motion.div>
           </div>
@@ -253,17 +253,17 @@ export function ContactPage() {
             className="bg-white rounded-2xl overflow-hidden shadow-xl"
           >
             {/* Google Maps Placeholder */}
-            <div className="relative h-96 bg-gray-200">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="mx-auto text-[#F59E0B] mb-4" size={48} />
-                  <p className="text-gray-600 font-medium">Keur Innovation, Tilène</p>
-                  <p className="text-gray-500 text-sm">Ziguinchor, Sénégal</p>
-                  <p className="text-gray-400 text-xs mt-4">
-                    Intégration Google Maps disponible
-                  </p>
-                </div>
-              </div>
+            <div className="w-full h-96">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!3m2!1sfr!2sus!4v1777824708075!5m2!1sfr!2sus!6m8!1m7!1sJK1wEyr09w3M9sxQu9_tBw!2m2!1d12.56640482164071!2d-16.26729355828315!3f268.2893793104896!4f4.291019516805221!5f0.7820865974627469"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-2xl"
+              ></iframe>
             </div>
           </motion.div>
         </div>
