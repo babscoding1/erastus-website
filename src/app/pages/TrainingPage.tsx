@@ -36,7 +36,47 @@ export function TrainingPage() {
       description: 'Découvrez le monde de l\'IA, du machine learning et des applications pratiques.',
       modules: ['Python pour l\'IA', 'Machine Learning', 'Deep Learning', 'ChatGPT & Prompting', 'Projets pratiques'],
       color: 'from-green-500 to-teal-500'
-    }
+    },
+    {
+    icon: Users,
+    title: 'Secrétariat Bureautique',
+    duration: '3 mois',
+    description: 'Maîtrisez les outils bureautiques et les techniques administratives modernes.',
+    modules: ['Word', 'Excel', 'PowerPoint', 'Gestion administrative', 'Communication professionnelle'],
+    color: 'from-blue-500 to-indigo-500'
+  },
+  {
+    icon: Code,
+    title: 'Informatique',
+    duration: '3 mois',
+    description: 'Apprenez les bases essentielles de l’informatique et des outils numériques.',
+    modules: ['Systèmes informatiques', 'Internet & Email', 'Maintenance', 'Initiation au code'],
+    color: 'from-green-500 to-teal-500'
+  },
+  {
+    icon: TrendingUp,
+    title: 'Gestion de Projet',
+    duration: '2 mois',
+    description: 'Planifiez, organisez et pilotez des projets efficacement.',
+    modules: ['Méthodes Agile', 'Planification', 'Gestion des risques', 'Outils de gestion'],
+    color: 'from-purple-500 to-pink-500'
+  },
+  {
+    icon: TrendingUp,
+    title: 'E-commerce',
+    duration: '2 mois',
+    description: 'Lancez et gérez votre boutique en ligne avec succès.',
+    modules: ['Création boutique', 'Paiement en ligne', 'Marketing digital', 'Logistique'],
+    color: 'from-orange-500 to-red-500'
+  },
+  {
+    icon: Brain,
+    title: 'Comptabilité & Gestion de Caisse',
+    duration: '3 mois',
+    description: 'Gérez les finances et la comptabilité d’une entreprise.',
+    modules: ['Comptabilité de base', 'Gestion de caisse', 'Facturation', 'Logiciels comptables'],
+    color: 'from-yellow-500 to-amber-500'
+  }
   ];
 
   const benefits = [
