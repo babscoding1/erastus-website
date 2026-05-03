@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { BarChart3, FileText, Scale, GraduationCap, Lightbulb, Users, CheckCircle, ArrowRight } from 'lucide-react';
+import { images } from '@/assets/images';
 
 export function ServicesPage() {
   const services = [
@@ -110,22 +111,22 @@ export function ServicesPage() {
     {
       name: 'Startups',
       description: 'De l\'idée au lancement et à la croissance',
-      image: 'https://images.unsplash.com/photo-1739298061751-d233df973afc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwZW50cmVwcmVuZXVycyUyMHN0YXJ0dXAlMjB0ZWFtd29ya3xlbnwxfHx8fDE3NzYxNzIxODJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+      image: images.startup
     },
     {
       name: 'PME',
       description: 'Croissance et transformation digitale',
-      image: 'https://images.unsplash.com/photo-1739300293396-9ad79111c8e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw0fHxBZnJpY2FuJTIwZW50cmVwcmVuZXVycyUyMHN0YXJ0dXAlMjB0ZWFtd29ya3xlbnwxfHx8fDE3NzYxNzIxODJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+      image: images.pme
     },
     {
       name: 'ONGs',
       description: 'Gestion de projets et impact social',
-      image: 'https://images.unsplash.com/photo-1632215861513-130b66fe97f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxBZnJpY2FuJTIwc3R1ZGVudHMlMjBsZWFybmluZyUyMGNsYXNzcm9vbXxlbnwxfHx8fDE3NzYxNzIxODF8MA&ixlib=rb-4.1.0&q=80&w=1080'
+      image: images.ong
     },
     {
       name: 'Institutions',
       description: 'Formation et renforcement de capacités',
-      image: 'https://images.unsplash.com/photo-1528901166007-3784c7dd3653?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIweW91dGglMjB0ZWNobm9sb2d5JTIwdHJhaW5pbmclMjBjb21wdXRlcnxlbnwxfHx8fDE3NzYxNzIxODB8MA&ixlib=rb-4.1.0&q=80&w=1080'
+      image: images.institution
     }
   ];
 
@@ -380,7 +381,7 @@ export function ServicesPage() {
               viewport={{ once: true }}
             >
               <img
-                src="https://images.unsplash.com/photo-1739292774739-ee38cd9a5735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw1fHxBZnJpY2FuJTIwZW50cmVwcmVuZXVycyUyMHN0YXJ0dXAlMjB0ZWFtd29ya3xlbnwxfHx8fDE3NzYxNzIxODJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src= {images.erastus}
                 alt="Why choose us"
                 className="rounded-2xl shadow-2xl"
               />

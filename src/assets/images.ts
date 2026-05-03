@@ -19,6 +19,13 @@ import entrepreneurs from "../imports/eleve entrepreneur.jpg";
 import femmeNum from "../imports/femmes numerique.jpg";
 import enfant_prog from "../imports/initiation enfant.jpg";
 import sessionCoding from "../imports/session coding.jpg";
+import conseil_dept_Bign from "../imports/Partenaire ERASTUS/Conseil Departemental Bignona.jpeg";
+import senegel from "../imports/Partenaire ERASTUS/Senegel.jpeg";
+import kanarimagik from "../imports/Partenaire ERASTUS/Kanarimagik.jpeg";
+import startup from "../imports/startup.jpeg";
+import pme from "../imports/PME.jpeg";
+import ong from "../imports/ONG/ong1.jpeg";
+import institution from "../imports/Institution.jpeg";
 
 
 export const images = {
@@ -42,5 +49,12 @@ export const images = {
     entrepreneurs,
     femmeNum,
     enfant_prog,
-    sessionCoding
+    sessionCoding,
+    conseil_dept_Bign,
+    senegel,
+    kanarimagik,
+    startup,
+    pme,
+    ong,
+    institution
 };

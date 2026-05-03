@@ -25,7 +25,7 @@ export function AboutPage() {
     {
       name: 'Équipe de Direction',
       role: 'Leadership visionnaire',
-      image: 'https://images.unsplash.com/photo-1739298061751-d233df973afc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwZW50cmVwcmVuZXVycyUyMHN0YXJ0dXAlMjB0ZWFtd29ya3xlbnwxfHx8fDE3NzYxNzIxODJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+      image: images.erastus
     },
     {
       name: 'Formateurs',

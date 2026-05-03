@@ -57,6 +57,9 @@ export function HomePage() {
     { name: "CTIC Dakar", logo: images.ctic },
     { name: "Sénégal Numérique", logo: images.senegal_service },
     { name: "UCAO", logo: images.ucao },
+    { name: "Conseil Départemental de Bignona", logo: images.conseil_dept_Bign },
+    { name: "Senegel", logo: images.senegel },
+    { name: "Kanarimagik", logo: images.kanarimagik }
   ];
 
   const activities = [
