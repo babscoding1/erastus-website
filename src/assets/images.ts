@@ -27,6 +27,8 @@ import startup from "../imports/startup.jpeg";
 import pme from "../imports/PME.jpeg";
 import ong from "../imports/ONG/ong1.jpeg";
 import institution from "../imports/Institution.jpeg";
+import equipe_tech from "../imports/equipe tech.jpeg";
+import mentors from "../imports/mentors.jpeg";
 
 
 export const images = {
@@ -58,5 +60,7 @@ export const images = {
     pme,
     ong,
     institution,
-    ensemble_formation
+    ensemble_formation,
+    equipe_tech,
+    mentors,
 };

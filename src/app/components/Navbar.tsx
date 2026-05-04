@@ -14,7 +14,6 @@ export function Navbar() {
     { path: '/events', label: 'Événements' },
     { path: '/services', label: 'Services' },
     { path: '/mediatheque', label: 'Médiathèque' },
-    { path: '/contact', label: 'Contact' },
   ];
 
   const isActive = (path: string) => location.pathname === path;

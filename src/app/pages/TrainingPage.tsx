@@ -8,47 +8,65 @@ export function TrainingPage() {
     {
       icon: TrendingUp,
       title: 'Marketing Digital',
-      duration: '3 mois',
-      description: 'Maîtrisez les stratégies marketing modernes, SEO, réseaux sociaux, publicité en ligne et analyse de données.',
-      modules: ['SEO & SEM', 'Social Media Marketing', 'Google Analytics', 'Email Marketing', 'Content Marketing'],
+      duration: '2 mois',
+      price: '35 000 FCFA',
+      monthly: '25 000 FCFA',
+      startDate: '11 Mai 2026',
+      description: 'Maîtrisez les stratégies marketing modernes.',
+      modules: ['Outils de design', 'Gestion des réseaux', 'Outils d\'analyse des réseaux', 'Brainding', 'E-reputation', 'Lead Magnet Mailing', 'Ouyils d\'IA'],
       color: 'from-purple-500 to-pink-500'
     },
     {
       icon: Code,
-      title: 'Développement Web et Maintenance',
-      duration: '6 mois',
+      title: 'Développement Web, Mobile & Maintenance',
+      duration: '5 mois',
+      price: '40 000 FCFA',
+      monthly: '30 000 FCFA',
+      startDate: '04 Juin 2026',
       description: 'Créez des applications web et mobile professionnelles avec les technologies les plus demandées.',
-      modules: ['HTML/CSS/JavaScript', 'React & React Native', 'Node.js', 'Bases de données', 'API Development'],
+      modules: ['Développement d\'applications de gestion', 'Développement d\'applications Web', 'Développement d\'applications No-code', 'Développement d\'applications Low-code', 'Sécurité informatique', 'Maintenance informatique'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
       icon: Palette,
-      title: 'Infographie et Montage vidéos',
+      title: 'Design Graphique',
       duration: '2 mois',
+      price: '35 000 FCFA',
+      monthly: '25 000 FCFA',
+      startDate: '20 Mai 2026',
       description: 'Apprenez à créer des visuels impactants avec les outils professionnels de l\'industrie.',
-      modules: ['Adobe Illustrator', 'Adobe Photoshop', 'Figma', 'UI/UX Design', 'Branding'],
+      modules: ['Branding', 'Photoshop', 'Illustrator', 'Canva', 'Capcut', 'Outils d\'IA'],
       color: 'from-orange-500 to-red-500'
     },
     {
       icon: Brain,
       title: 'Intelligence Artificielle',
-      duration: '4 mois',
+      duration: '2 mois',
+      price: '35 000 FCFA',
+      monthly: '25 000 FCFA',
+      startDate: '20 Mai 2026',
       description: 'Découvrez le monde de l\'IA, du machine learning et des applications pratiques.',
-      modules: ['Python pour l\'IA', 'Machine Learning', 'Deep Learning', 'ChatGPT & Prompting', 'Projets pratiques'],
+      modules: ['Introduction à l\'IA', 'Initiation auMachine Learning', 'IA generative et son impact', 'IA au service des entreprises'],
       color: 'from-green-500 to-teal-500'
     },
     {
     icon: Users,
     title: 'Secrétariat Bureautique',
-    duration: '3 mois',
+    duration: '2 mois',
+    price: '35 000 FCFA',
+    monthly: '25 000 FCFA',
+    startDate: '11 Mai 2026',
     description: 'Maîtrisez les outils bureautiques et les techniques administratives modernes.',
-    modules: ['Word', 'Excel', 'PowerPoint', 'Gestion administrative', 'Communication professionnelle'],
+    modules: ['Pack Offices', 'Outils de travail collaboratifs', 'Outils d\'IA', 'Gestion d\'accueil et d\'équipe', 'Classement et archivage des documents'],
     color: 'from-blue-500 to-indigo-500'
   },
   {
     icon: Code,
     title: 'Informatique',
     duration: '3 mois',
+    price: '35 000 FCFA',
+    monthly: '25 000 FCFA',
+    startDate: '11 Mai 2026',
     description: 'Apprenez les bases essentielles de l’informatique et des outils numériques.',
     modules: ['Systèmes informatiques', 'Internet & Email', 'Maintenance', 'Initiation au code'],
     color: 'from-green-500 to-teal-500'
@@ -57,6 +75,9 @@ export function TrainingPage() {
     icon: TrendingUp,
     title: 'Gestion de Projet',
     duration: '2 mois',
+    price: '40 000 FCFA',
+    monthly: '20 000 FCFA',
+    startDate: '20 Juin 2026',
     description: 'Planifiez, organisez et pilotez des projets efficacement.',
     modules: ['Méthodes Agile', 'Planification', 'Gestion des risques', 'Outils de gestion'],
     color: 'from-purple-500 to-pink-500'
@@ -64,17 +85,23 @@ export function TrainingPage() {
   {
     icon: TrendingUp,
     title: 'E-commerce',
-    duration: '2 mois',
+    duration: '5 Jours',
+    price: '20 000 FCFA',
+    monthly: '-',
+    startDate: '12 Mai 2026',
     description: 'Lancez et gérez votre boutique en ligne avec succès.',
-    modules: ['Création boutique', 'Paiement en ligne', 'Marketing digital', 'Logistique'],
+    modules: ['Création boutique en ligne', 'Technique de vente sur Internet', 'Utilisation de réseaux sociaux', 'Outils d\'Intelligence Artificielle pour le business'],
     color: 'from-orange-500 to-red-500'
   },
   {
     icon: Brain,
     title: 'Comptabilité & Gestion de Caisse',
-    duration: '3 mois',
+    duration: '2 mois',
+    price: '35 000 FCFA',
+    monthly: '25 000 FCFA',
+    startDate: '11 Mai 2026',
     description: 'Gérez les finances et la comptabilité d’une entreprise.',
-    modules: ['Comptabilité de base', 'Gestion de caisse', 'Facturation', 'Logiciels comptables'],
+    modules: ['Gestion Financière','Comptabilité', 'Excel', 'Controle de caisse','Maniement de fonds','Gestion de stocks','Procédure de decaissement', 'Outils d\'IA'],
     color: 'from-yellow-500 to-amber-500'
   }
   ];
@@ -161,7 +188,7 @@ export function TrainingPage() {
                 Des formations pratiques de 2 à 6 mois pour acquérir les compétences les plus demandées sur le marché du travail.
               </p>
               <Link
-                to="/contact"
+                to="/inscription-formation"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-[#F59E0B] text-white rounded-lg font-medium transition-all duration-300 hover:bg-[#D97706] hover:shadow-2xl hover:shadow-orange-500/50 hover:-translate-y-1"
               >
                 S'inscrire maintenant
@@ -234,6 +261,22 @@ export function TrainingPage() {
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {program.description}
                 </p>
+                <div className="bg-gray-50 rounded-xl p-4 mb-6 border space-y-2">
+                  <div className="flex justify-between text-sm">
+                    <span>Inscription</span>
+                    <span className="font-semibold">{program.price}</span>
+                  </div>
+
+                  <div className="flex justify-between text-sm">
+                    <span>Mensualité</span>
+                    <span className="font-semibold">{program.monthly}</span>
+                  </div>
+
+                  <div className="flex justify-between text-sm">
+                    <span>Début</span>
+                    <span className="font-semibold text-[#F59E0B]">{program.startDate}</span>
+                  </div>
+                </div>
 
                 <div className="space-y-2 mb-6">
                   <div className="font-medium text-[#0A2540] mb-3">Modules du programme:</div>
@@ -246,7 +289,7 @@ export function TrainingPage() {
                 </div>
 
                 <Link
-                  to="/contact"
+                  to='/inscription-formation'
                   className="inline-flex items-center gap-2 text-[#F59E0B] font-medium hover:gap-4 transition-all duration-300"
                 >
                   S'inscrire
@@ -438,7 +481,7 @@ export function TrainingPage() {
               Les inscriptions sont ouvertes. Ne manquez pas cette opportunité de transformer votre carrière.
             </p>
             <Link
-              to="/contact"
+              to="/inscription-formation"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-[#F59E0B] rounded-lg font-medium hover:bg-gray-100 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
             >
               S'inscrire maintenant

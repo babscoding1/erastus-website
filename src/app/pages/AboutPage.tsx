@@ -35,12 +35,12 @@ export function AboutPage() {
     {
       name: 'Mentors',
       role: 'Accompagnement personnalisé',
-      image: 'https://images.unsplash.com/photo-1528901166007-3784c7dd3653?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIweW91dGglMjB0ZWNobm9sb2d5JTIwdHJhaW5pbmclMjBjb21wdXRlcnxlbnwxfHx8fDE3NzYxNzIxODB8MA&ixlib=rb-4.1.0&q=80&w=1080'
+      image: images.mentors
     },
     {
       name: 'Équipe Technique',
       role: 'Innovation et support',
-      image: 'https://images.unsplash.com/photo-1620829813573-7c9e1877706f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxBZnJpY2FuJTIweW91dGglMjB0ZWNobm9sb2d5JTIwdHJhaW5pbmclMjBjb21wdXRlcnxlbnwxfHx8fDE3NzYxNzIxODB8MA&ixlib=rb-4.1.0&q=80&w=1080'
+      image: images.equipe_tech
     }
   ];
 
@@ -104,13 +104,13 @@ export function AboutPage() {
                 </h2>
               </div>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Basée à Ziguinchor, au cœur de la Casamance, ERASTUS GROUP SAS est une organisation dirigée par des jeunes, pour les jeunes. Nous sommes passionnés par l'idée de créer des opportunités et de développer les compétences qui façonneront le Sénégal de demain.
+                Basée à Ziguinchor, au cœur de la Casamance, Erastus  Group SAS est une structure créée par des jeunes au service de la population particulièrement des jeunes et des femmes. Elle a pour ambition d’aider les apprenants, les porteurs de projet et les entrepreneurs dans des formations orientées vers la pratique, l’accompagnement, l’échange et la recherche de financement de leur projet et les opportunités d’emplois pour les jeunes avec la création de startups.
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Depuis notre création, nous avons formé plus de 500 jeunes dans divers domaines technologiques et entrepreneuriaux, soutenu des dizaines de startups et organisé de nombreux événements qui ont transformé notre communauté.
+                Erastus Group SAS accompagne aussi les entreprises , ONG et autres structures dans des prestations de services dans le domaine juridique , d’étude de marché et enquête de tout genre…
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Notre approche unique combine formation pratique, mentorat personnalisé et accès à un réseau de professionnels et d'opportunités.
+                Nous intervenons partout au Sénégal et dans la sous région avec une équipe expérimentée.
               </p>
             </motion.div>
           </div>
@@ -243,7 +243,7 @@ export function AboutPage() {
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-65 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0A2540]/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                     <div className="text-white">
@@ -284,8 +284,8 @@ export function AboutPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: '500+', label: 'Jeunes Formés', delay: 0 },
-              { number: '50+', label: 'Projets Accompagnés', delay: 0.1 },
+              { number: '2000+', label: 'Etudiants Formés', delay: 0 },
+              { number: '10+', label: 'Projets Accompagnés', delay: 0.1 },
               { number: '5', label: 'Villes Couvertes', delay: 0.2 },
               { number: '10+', label: 'Partenaires Actifs', delay: 0.3 }
             ].map((stat, index) => (
