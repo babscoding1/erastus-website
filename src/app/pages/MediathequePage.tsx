@@ -715,6 +715,80 @@ const albums = [
         { type: 'video', url: video.week_end_num_22_fev },
       ]
     },
+    {
+      id: 40,
+      title: 'Journée porte ouverte Janvier 2025',
+      category: 'Formations',
+      date: '31 Janvier 2025',
+      description: `Ce fut une journée mémorable lors de notre porte ouverte, où nous avons eu le plaisir de rencontrer de futurs étudiants et de partager nos programmes de formation 🎓. Un moment fort a été la remise des attestations de formation à nos étudiants, symbolisant leur engagement et leurs réussites 🏅. Nous sommes fiers de les accompagner dans leur parcours et de les voir progresser avec enthousiasme 💪. Merci à tous ceux qui ont participé et contribué à la réussite de cet événement 🙏.`,
+      cover: images.journee_31_jan_1,
+      media: [
+        { type: 'image', url: images.journee_31_jan_1 },
+        { type: 'image', url: images.journee_31_jan_2 },
+        { type: 'image', url: images.journee_31_jan_3 },
+        { type: 'image', url: images.journee_31_jan_4 },
+        { type: 'image', url: images.journee_31_jan_5 },
+        { type: 'image', url: images.journee_31_jan_6 },
+      ]
+    },
+    {
+      id: 41,
+      title: 'Visite à Univers Casa Bio et à Expresso',
+      category: 'Formations',
+      date: '27-28 Janvier 2025',
+      description: `Retour en images sur nos visites d’entreprises ! 📸
+                    Dans le cadre du programme de formation Kaay Tagatu, Erastus a organisé deux visites enrichissantes pour nos étudiants :
+                    📍 Le 27 janvier 2025 à Univers Casa Bio – Une immersion au cœur de la transformation du charbon écologique, où nous avons découvert des techniques innovantes et durables pour une énergie plus respectueuse de l’environnement.
+                    📍 Le 28 janvier 2025 à Expresso – Une exploration du secteur des télécommunications, avec des échanges passionnants sur les métiers, les défis technologiques et les opportunités du domaine.
+                    Ces visites ont permis aux étudiants d’élargir leurs perspectives professionnelles, de poser leurs questions directement aux experts et de mieux comprendre les réalités du monde du travail.
+                    Merci à Casa Bio et Expresso pour leur accueil, et bravo à tous les participants pour leur engagement ! 🎓🚀`,
+      cover: images.visite_casa_bio_expresso_1,
+      media: [
+        { type: 'image', url: images.visite_casa_bio_expresso_1 },
+        { type: 'image', url: images.visite_casa_bio_expresso_2 },
+        { type: 'image', url: images.visite_casa_bio_expresso_3 },
+        { type: 'image', url: images.visite_casa_bio_expresso_4 },
+        { type: 'image', url: images.visite_casa_bio_expresso_5 },
+        { type: 'image', url: images.visite_casa_bio_expresso_6 },
+        { type: 'image', url: images.visite_casa_bio_expresso_7 },
+        { type: 'image', url: images.visite_casa_bio_expresso_8 },
+      ]
+    },
+    {
+      id: 42,
+      title: 'Week-End Numerique du 25 janvier 2025',
+      category: 'Formations',
+      date: '25 janvier 2025',
+      description: `Le samedi 25 janvier 2025,  nous avons organisé le premier samedi numérique sur le thème : développer ces compétences avec canvas.
+                    Outil indispensable de nos jours, nos participants ont appris comment faire des affiches, montage vidéo, CV, rapports, bannières ... 
+                    Un grand merci à nos participants.
+                    RV en février pour la prochaine édition.`,
+      cover: images.week_end_num_25_janv_1,
+      media: [
+        { type: 'image', url: images.week_end_num_25_janv_1 },
+        { type: 'image', url: images.week_end_num_25_janv_2 },
+        { type: 'image', url: images.week_end_num_25_janv_3 },
+        { type: 'image', url: images.week_end_num_25_janv_4 },
+        { type: 'image', url: images.week_end_num_25_janv_5 },
+        { type: 'image', url: images.week_end_num_25_janv_6 },
+      ]
+    },
+    {
+      id: 43,
+      title: 'Visite de l\'équipe de Orange Corners Senegal',
+      category: 'Partenariats',
+      date: '17 Décembre 2024',
+      description: `Dans le cadre de leur tournée dans la zone pour le lancement prochain d'un programme d'incubation à Ziguinchor, nous avons reçu le mardi 17 décembre  à keur innovation, l'équipe de Orange Corners Senegal. 
+                    Cette visite s'inscrit dans le cadre de rencontrer les acteurs de l'écosystème entrepreneurial du sud afin de voir les opportunités et niches pour les  champions locaux.
+                    Des échanges riches qui ont permis de présenter les différents programmes des deux entités en faveur des jeunes et femmes.`,
+      cover: images.O_corner_sen_1,
+      media: [
+        { type: 'image', url: images.O_corner_sen_1 },
+        { type: 'image', url: images.O_corner_sen_2 },
+        { type: 'image', url: images.O_corner_sen_3 },
+        { type: 'image', url: images.O_corner_sen_4 },
+      ]
+    },
   ];
   const filteredAlbums =
     activeCategory === 'Tous'

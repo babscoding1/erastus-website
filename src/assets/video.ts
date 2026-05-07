@@ -7,6 +7,9 @@ import bonne_annee_2026 from "../imports/Evenements/Souhait de fete/Nouvelle ann
 import joyeux_noel from "../imports/Evenements/Souhait de fete/Video Noel erastus 1.mp4"
 //Week-end Numérique du 22 février
 import week_end_num_22_fev from "../imports/Evenements/Week-End Numerique/Week-end Numérique du 22 février/Week-end Numérique du 22 février.mp4"
+//video presentation Erastus
+import presentation_erastus from "../imports/Presentation Erastus/Presentation Erastus Group.mp4"
+
 export const video = {
     formation,
     presentation_kay_tagatou,
@@ -17,4 +20,6 @@ export const video = {
     joyeux_noel,
     //Week-end Numérique du 22 février
     week_end_num_22_fev,
+    //video presentation Erastus
+    presentation_erastus,
 }

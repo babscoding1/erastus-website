@@ -258,6 +258,34 @@ import week_end_num_22_fev_1 from "../imports/Evenements/Week-End Numerique/Week
 import week_end_num_22_fev_2 from "../imports/Evenements/Week-End Numerique/Week-end Numérique du 22 février/2.jpg"
 import week_end_num_22_fev_3 from "../imports/Evenements/Week-End Numerique/Week-end Numérique du 22 février/3.jpg"
 import week_end_num_22_fev_4 from "../imports/Evenements/Week-End Numerique/Week-end Numérique du 22 février/4.jpg"
+//Journée porte ouverte Janvier 2025
+import journee_31_jan_1 from "../imports/Evenements/Journée portes ouvertes/31 Janvier 2025/1.jpg"
+import journee_31_jan_2 from "../imports/Evenements/Journée portes ouvertes/31 Janvier 2025/2.jpg"
+import journee_31_jan_3 from "../imports/Evenements/Journée portes ouvertes/31 Janvier 2025/3.jpg"
+import journee_31_jan_4 from "../imports/Evenements/Journée portes ouvertes/31 Janvier 2025/4.jpg"
+import journee_31_jan_5 from "../imports/Evenements/Journée portes ouvertes/31 Janvier 2025/5.jpg"
+import journee_31_jan_6 from "../imports/Evenements/Journée portes ouvertes/31 Janvier 2025/6.jpg"
+//Visite à Univers Casa Bio et à Expresso
+import visite_casa_bio_expresso_1 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/1.jpg"
+import visite_casa_bio_expresso_2 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/2.jpg"
+import visite_casa_bio_expresso_3 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/3.jpg"
+import visite_casa_bio_expresso_4 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/4.jpg"
+import visite_casa_bio_expresso_5 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/5.jpg"
+import visite_casa_bio_expresso_6 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/6.jpg"
+import visite_casa_bio_expresso_7 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/7.jpg"
+import visite_casa_bio_expresso_8 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/8.jpg"
+////Week-end Numérique du 25 janvier 2025
+import week_end_num_25_janv_1 from "../imports/Evenements/Week-End Numerique/25 janvier 2025/1.jpg"
+import week_end_num_25_janv_2 from "../imports/Evenements/Week-End Numerique/25 janvier 2025/2.jpg"
+import week_end_num_25_janv_3 from "../imports/Evenements/Week-End Numerique/25 janvier 2025/3.jpg"
+import week_end_num_25_janv_4 from "../imports/Evenements/Week-End Numerique/25 janvier 2025/4.jpg"
+import week_end_num_25_janv_5 from "../imports/Evenements/Week-End Numerique/25 janvier 2025/5.jpg"
+import week_end_num_25_janv_6 from "../imports/Evenements/Week-End Numerique/25 janvier 2025/6.jpg"
+//Partenariat Orange Corners Senegal
+import O_corner_sen_1 from "../imports/Evenements/Partenariat Senegel/Paertenariat Orange Corners Senegal/1.jpg"
+import O_corner_sen_2 from "../imports/Evenements/Partenariat Senegel/Paertenariat Orange Corners Senegal/2.jpg"
+import O_corner_sen_3 from "../imports/Evenements/Partenariat Senegel/Paertenariat Orange Corners Senegal/3.jpg"
+import O_corner_sen_4 from "../imports/Evenements/Partenariat Senegel/Paertenariat Orange Corners Senegal/4.jpg"
 
 
 export const images = {
@@ -521,4 +549,32 @@ export const images = {
     week_end_num_22_fev_2,
     week_end_num_22_fev_3,
     week_end_num_22_fev_4,
+    //Journée porte ouverte Janvier 2025
+    journee_31_jan_1,
+    journee_31_jan_2,
+    journee_31_jan_3,
+    journee_31_jan_4,
+    journee_31_jan_5,
+    journee_31_jan_6,
+    //Visite à Univers Casa Bio et à Expresso
+    visite_casa_bio_expresso_1,
+    visite_casa_bio_expresso_2,
+    visite_casa_bio_expresso_3,
+    visite_casa_bio_expresso_4,
+    visite_casa_bio_expresso_5,
+    visite_casa_bio_expresso_6,
+    visite_casa_bio_expresso_7,
+    visite_casa_bio_expresso_8,
+    //Week-end Numérique du 25 janvier 2025
+    week_end_num_25_janv_1,
+    week_end_num_25_janv_2,
+    week_end_num_25_janv_3,
+    week_end_num_25_janv_4,
+    week_end_num_25_janv_5,
+    week_end_num_25_janv_6,
+    //Partenariat Orange Corners Senegal
+    O_corner_sen_1,
+    O_corner_sen_2,
+    O_corner_sen_3,
+    O_corner_sen_4,
 };

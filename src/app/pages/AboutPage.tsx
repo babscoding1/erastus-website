@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Target, Eye, Heart, Users, Award, Zap } from 'lucide-react';
 import { images } from "../../assets/images";
+import { video } from '@/assets/video';
 
 export function AboutPage() {
   const values = [
@@ -116,6 +117,13 @@ export function AboutPage() {
           </div>
         </div>
       </section>
+      <video src={video.presentation_erastus} controls
+                autoPlay
+                muted
+                playsInline
+                className="w-full max-h-[50vh] object-contain rounded-xl">
+
+      </video>
 
       {/* Mission & Vision */}
       <section className="py-20 bg-gray-50">

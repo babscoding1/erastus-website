@@ -25,57 +25,6 @@ export function EventsPage() {
   ];
 
   const pastEvents = [
-    {
-      title: 'Samedi Numérique 2026',
-      date: '20-21 Mai 2026',
-      time: '09:00 - 18:00',
-      participants: '150+',
-      description: '48h d\'apprentissage intensif sur les technologies émergentes, le développement web, et l\'entrepreneuriat digital.',
-      image: images.week_end,
-    },
-    {
-      title: 'Masterclass: Entrepreneuriat Digital',
-      date: '15 Juin 2026',
-      time: '14:00 - 17:00',
-      participants: '50+',
-      description: 'Rencontre avec des entrepreneurs à succès qui partagent leurs expériences et conseils pratiques.',
-      image: images.masterclass,
-    },
-    {
-      title: 'Formation CapCut Pro',
-      date: '1-5 Juillet 2026',
-      participants: '30+',
-      description: 'Formation intensive sur le montage vidéo professionnel avec CapCut pour créer du contenu impactant.',
-      image: images.formation_illustrator,
-    },
-    {
-      title: 'Casamance Innovation Tech 2025',
-      date: 'Décembre 2025',
-      participants: '200+',
-      description: 'Un événement majeur réunissant innovateurs, entrepreneurs et leaders technologiques de la région.',
-      image: images.casa_ino_tech
-    },
-    {
-      title: 'Bootcamp AI & Machine Learning',
-      date: 'Novembre 2025',
-      participants: '80+',
-      description: 'Formation intensive sur l\'intelligence artificielle et ses applications pratiques.',
-      image: images.ia_ml
-    },
-    {
-      title: 'Workshop Illustrator & Photoshop',
-      date: 'Octobre 2025',
-      participants: '40+',
-      description: 'Atelier pratique sur les outils Adobe pour le design graphique professionnel.',
-      image: images.illustrator
-    },
-    {
-      title: 'Hackathon Solutions Locales',
-      date: 'Septembre 2025',
-      participants: '120+',
-      description: '24h pour créer des solutions technologiques aux problèmes locaux.',
-      image: images.week_end
-    }
   ];
 
   const eventTypes = [
@@ -276,42 +225,14 @@ export function EventsPage() {
             </motion.div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {pastEvents.map((event, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ delay: index * 0.1, duration: 0.6 }}
-                viewport={{ once: true }}
-                className="group cursor-pointer"
-              >
-                <div className="relative overflow-hidden rounded-2xl mb-4">
-                  <img
-                    src={event.image}
-                    alt={event.title}
-                    className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                    <div className="text-white">
-                      <div className="flex items-center gap-2 mb-2">
-                        <Users size={18} className="text-[#F59E0B]" />
-                        <span className="text-sm">{event.participants} participants</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-4 right-4">
-                    <span className="px-3 py-1 bg-white/20 backdrop-blur-sm text-white text-sm rounded-full font-medium">
-                      {event.date}
-                    </span>
-                  </div>
-                </div>
-                <h3 className="text-xl font-bold text-[#0A2540] mb-2 group-hover:text-[#F59E0B] transition-colors" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                  {event.title}
-                </h3>
-                <p className="text-gray-600">{event.description}</p>
-              </motion.div>
-            ))}
+          <div className="text-center mt-12">
+            <a
+              href="/mediatheque"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#0A2540] text-white rounded-lg font-medium hover:bg-[#0A2540]/90 transition-all duration-300 hover:shadow-lg"
+            >
+              Voir tous les événements
+              <ArrowRight size={20} />
+            </a>
           </div>
         </div>
       </section>
