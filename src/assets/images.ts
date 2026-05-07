@@ -125,11 +125,11 @@ import marketing_digital_oussouye3 from "../imports/Evenements/CDEPS d'oussouye/
 import marketing_digital_oussouye4 from "../imports/Evenements/CDEPS d'oussouye/4.jpg"
 //journée portes ouvertes 17 Septembre 2025
 import journee_17_sept_1 from "../imports/Evenements/Journée portes ouvertes/17 Septembre 2025/1.jpg"
-import journee_17_sept_2 from "../imports/Evenements/Journée portes ouvertes/17 septembre 2025/2.jpg"
-import journee_17_sept_3 from "../imports/Evenements/Journée portes ouvertes/17 septembre 2025/3.jpg"
-import journee_17_sept_4 from "../imports/Evenements/Journée portes ouvertes/17 septembre 2025/4.jpg"
-import journee_17_sept_5 from "../imports/Evenements/Journée portes ouvertes/17 septembre 2025/5.jpg"
-import journee_17_sept_6 from "../imports/Evenements/Journée portes ouvertes/17 septembre 2025/6.jpg"
+import journee_17_sept_2 from "../imports/Evenements/Journée portes ouvertes/17 Septembre 2025/2.jpg"
+import journee_17_sept_3 from "../imports/Evenements/Journée portes ouvertes/17 Septembre 2025/3.jpg"
+import journee_17_sept_4 from "../imports/Evenements/Journée portes ouvertes/17 Septembre 2025/4.jpg"
+import journee_17_sept_5 from "../imports/Evenements/Journée portes ouvertes/17 Septembre 2025/5.jpg"
+import journee_17_sept_6 from "../imports/Evenements/Journée portes ouvertes/17 Septembre 2025/6.jpg"
 //Formation du personnel en planification et sur  l'archivage
 import formation_personnel1 from "../imports/Evenements/Formation personnel/Archivage/1.jpg"
 import formation_personnel2 from "../imports/Evenements/Formation personnel/Archivage/2.jpg"
