@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Link } from 'react-router';
 import { Code, Palette, TrendingUp, Brain, Clock, Award, CheckCircle, ArrowRight, Users } from 'lucide-react';
 import { images } from "../../assets/images";
+import { video } from "../../assets/video";
 
 export function TrainingPage() {
   const programs = [
@@ -63,12 +64,12 @@ export function TrainingPage() {
   {
     icon: Code,
     title: 'Informatique',
-    duration: '3 mois',
-    price: '35 000 FCFA',
-    monthly: '25 000 FCFA',
+    duration: '1 mois',
+    price: '30 000 FCFA',
+    monthly: '-',
     startDate: '11 Mai 2026',
     description: 'Apprenez les bases essentielles de l’informatique et des outils numériques.',
-    modules: ['Systèmes informatiques', 'Internet & Email', 'Maintenance', 'Initiation au code'],
+    modules: ['Word', 'Excel', 'Power Point', 'Outils de travail collaboratifs', 'Outils d\'IA', 'Outils d\'archivages numérique'],
     color: 'from-green-500 to-teal-500'
   },
   {
@@ -76,10 +77,10 @@ export function TrainingPage() {
     title: 'Gestion de Projet',
     duration: '2 mois',
     price: '40 000 FCFA',
-    monthly: '20 000 FCFA',
-    startDate: '20 Juin 2026',
+    monthly: '30 000 FCFA',
+    startDate: '18 Juin 2026',
     description: 'Planifiez, organisez et pilotez des projets efficacement.',
-    modules: ['Méthodes Agile', 'Planification', 'Gestion des risques', 'Outils de gestion'],
+    modules: ['Les bases de la gestion de Projet', 'Monter un Projet de A à Z', 'Manager un Projet', 'Evaluation d\'un Projet'],
     color: 'from-purple-500 to-pink-500'
   },
   {
@@ -211,7 +212,11 @@ export function TrainingPage() {
           </div>
         </div>
       </section>
-
+      <video src={video.presentation_kay_tagatou} controls
+                autoPlay
+                muted
+                playsInline
+                className="w-full max-h-[50vh] object-contain rounded-xl"></video>
       {/* Programs Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

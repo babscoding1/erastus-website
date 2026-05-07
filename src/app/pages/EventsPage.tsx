@@ -1,46 +1,53 @@
 import { motion } from 'motion/react';
 import { Calendar, MapPin, Users, Clock, ArrowRight, Sparkles } from 'lucide-react';
 import { images } from "../../assets/images";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export function EventsPage() {
+  const navigate = useNavigate();
+  
   const upcomingEvents = [
     {
-      title: 'Week-end Numérique 2026',
-      date: '20-21 Mai 2026',
-      time: '09:00 - 18:00',
-      location: 'Keur Innovation, Ziguinchor',
+      id:1,
+      title: 'Pique-Nique',
+      date: 'Samedi 16 Mai 2026',
+      time: '10:00 - 18:00',
+      location: 'Centre de Brin',
       attendees: '100+',
-      description: '48h d\'apprentissage intensif sur les technologies émergentes, le développement web, et l\'entrepreneuriat digital.',
-      image: images.week_end,
+      description: 'Animations, Visites, Partages et Réseautages',
+      price: 5000, // en FCFA
+      image: images.pique_nique,
       category: 'Tech Event',
       status: 'upcoming'
+    },
+  ];
+
+  const pastEvents = [
+    {
+      title: 'Samedi Numérique 2026',
+      date: '20-21 Mai 2026',
+      time: '09:00 - 18:00',
+      participants: '150+',
+      description: '48h d\'apprentissage intensif sur les technologies émergentes, le développement web, et l\'entrepreneuriat digital.',
+      image: images.week_end,
     },
     {
       title: 'Masterclass: Entrepreneuriat Digital',
       date: '15 Juin 2026',
       time: '14:00 - 17:00',
-      location: 'Online & Présentiel',
-      attendees: '50+',
+      participants: '50+',
       description: 'Rencontre avec des entrepreneurs à succès qui partagent leurs expériences et conseils pratiques.',
       image: images.masterclass,
-      category: 'Masterclass',
-      status: 'upcoming'
     },
     {
       title: 'Formation CapCut Pro',
       date: '1-5 Juillet 2026',
-      time: '10:00 - 16:00',
-      location: 'Keur Innovation, Ziguinchor',
-      attendees: '30',
+      participants: '30+',
       description: 'Formation intensive sur le montage vidéo professionnel avec CapCut pour créer du contenu impactant.',
       image: images.formation_illustrator,
-      category: 'Workshop',
-      status: 'upcoming'
-    }
-  ];
-
-  const pastEvents = [
+    },
     {
       title: 'Casamance Innovation Tech 2025',
       date: 'Décembre 2025',
@@ -177,12 +184,12 @@ export function EventsPage() {
           </div>
 
           <div className="space-y-8">
-            {upcomingEvents.map((event, index) => (
+            {upcomingEvents.map((event) => (
               <motion.div
-                key={index}
+                key={event.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1, duration: 0.6 }}
+                transition={{ delay: event.id * 0.1, duration: 0.6 }}
                 viewport={{ once: true }}
                 className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
               >
@@ -226,11 +233,19 @@ export function EventsPage() {
                         <span className="text-sm">{event.attendees} participants</span>
                       </div>
                     </div>
+                    
+                    <a href="/event"
+                      
+                      className="inline-flex items-center justify-between gap-4 px-6 py-3 bg-[#F59E0B] text-white rounded-lg font-medium hover:bg-[#D97706] transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
+                    >
+                      <span>S'inscrire</span>
 
-                    <button className="inline-flex items-center gap-2 px-6 py-3 bg-[#F59E0B] text-white rounded-lg font-medium hover:bg-[#D97706] transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
-                      S'inscrire maintenant
+                      <span className="text-sm bg-white/20 px-2 py-1 rounded">
+                        {event.price === 0 ? "Gratuit" : `${event.price} FCFA`}
+                      </span>
+
                       <ArrowRight size={18} />
-                    </button>
+                    </a>
                   </div>
                 </div>
               </motion.div>

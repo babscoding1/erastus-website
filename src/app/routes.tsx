@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { HomePage } from "./pages/HomePage";
 import { AboutPage } from "./pages/AboutPage";
@@ -9,6 +9,7 @@ import { ServicesPage } from "./pages/ServicesPage";
 import { ContactPage } from "./pages/ContactPage";
 import { MediathequePage } from "./pages/MediathequePage";
 import { NotFound } from "./pages/NotFound";
+import EventRegistration from "./pages/EventRegistration";
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ export const router = createBrowserRouter([
       { path: "services", Component: ServicesPage },
       { path: "mediatheque", Component: MediathequePage },
       { path: "contact", Component: ContactPage },
+      {path: "event", Component: EventRegistration},
       { path: "*", Component: NotFound },
     ],
   },
