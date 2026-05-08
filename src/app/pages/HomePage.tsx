@@ -65,22 +65,25 @@ export function HomePage() {
 
   const activities = [
     {
-      title: 'Week-end numérique',
-      description: '48h d\'apprentissage intensif et de networking',
-      image: images.week_end,
-      tag: 'Événement'
+      title: 'Autonomisation socio-économique des femmes',
+      description: `Dans le cadre du projet "Autonomisation socio-économique des femmes rurales dans les communes de Diacounda,Boutoupa Camaracounda et Enampore" , Erastus Group SAS a eu à accompagner 31 femmes entrepreneures en entrepreneuriat digital et marketing numérique du 22 au 24 avril 2026 à USOFORAL.`,
+      image: images.Autonomisation_femmes1,
+      tag: 'Formations',
+
     },
     {
-      title: 'Formation CapCut & Illustrator',
-      description: 'Maîtrisez les outils créatifs professionnels',
-      image: images.formation_illustrator,
-      tag: 'Formation'
+      title: '1er Pique-Nique à Brin',
+      date: '18 Avril 2026',
+      description: `L'équipe Erastus Group SAS s'est rendu à Brin pour un pique-nique avec les enfants du village de Brin.`,
+      image: images.pique_nique,
+      tag: 'Enfants',
     },
     {
-      title: 'Masterclass Entrepreneurs',
-      description: 'Rencontres avec des leaders d\'entreprise',
-      image: images.masterclass,
-      tag: 'Masterclass'
+      title: 'Partenariat entre Erastus Group SAS et Senegel',
+      description: `L'équipe Erastus Group SAS a reçu à keur innovation l'équipe de Senegel et de Wyze Academy dans le cadre du projet de campus numérique à Ziguinchor.
+                    `,
+      image: images.senegel1,
+      tag: 'Partenariats',
     }
   ];
 
@@ -354,7 +357,7 @@ export function HomePage() {
               to="/events"
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#0A2540] text-white rounded-lg font-medium hover:bg-[#0A2540]/90 transition-all duration-300 hover:shadow-lg"
             >
-              Voir tous les événements
+              Voir les événements à venir
               <ArrowRight size={20} />
             </Link>
           </div>
@@ -383,11 +386,11 @@ export function HomePage() {
                 viewport={{ once: true }}
                 className="group relative"
               >
-                <div className="bg-white rounded-xl p-6 h-32 flex items-center justify-center shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
+                <div className="bg-white rounded-xl p-4 md:p-6 h-40 md:h-48 flex items-center justify-center shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
                   <img
                     src={partner.logo}
                     alt={partner.name}
-                    className="h-12 object-contain group-hover:grayscale-0 transition duration-300"
+                    className="h-20 md:h-24 object-contain group-hover:grayscale-0 transition duration-300"
                   />
                 </div>
               </motion.div>

@@ -55,13 +55,25 @@ const albums = [
       title: '1er Pique-Nique à Brin',
       category: 'Enfants',
       date: '18 Avril 2026',
-      description: `l'équipe Erastus Group SAS s'est rendu à Brin pour un pique-nique avec les enfants du village de Brin.`,
-      cover: images.pique_nique,
+      description: `L'équipe Erastus Group SAS s'est rendu à Brin pour un pique-nique avec les enfants du village de Brin.`,
+      cover: images.premier_pique_nique_Brin_1,
       media: [
         {
           type: 'video',
           url: video.premier_pique_nique_Brin
         },
+        { type: 'image', url: images.premier_pique_nique_Brin_1 },
+        { type: 'image', url: images.premier_pique_nique_Brin_2 },
+        { type: 'image', url: images.premier_pique_nique_Brin_3 },
+        { type: 'image', url: images.premier_pique_nique_Brin_4 },
+        { type: 'image', url: images.premier_pique_nique_Brin_5 },
+        { type: 'image', url: images.premier_pique_nique_Brin_6 },
+        { type: 'image', url: images.premier_pique_nique_Brin_7 },
+        { type: 'image', url: images.premier_pique_nique_Brin_8 },
+        { type: 'image', url: images.premier_pique_nique_Brin_9 },
+        { type: 'image', url: images.premier_pique_nique_Brin_10 },
+
+
       ]
     },
     {
@@ -69,7 +81,7 @@ const albums = [
       title: 'Partenariat entre Erastus Group SAS et Senegel',
       category: 'Partenariats',
       date: '18 Avril 2026',
-      description: `l'équipe Erastus Group SAS a reçu à keur innovation l'équipe de Senegel et de Wyze Academy dans le cadre du projet de campus numérique à Ziguinchor.
+      description: `L'équipe Erastus Group SAS a reçu à keur innovation l'équipe de Senegel et de Wyze Academy dans le cadre du projet de campus numérique à Ziguinchor.
                     Cette visite entre dans le cadre du partenariat entre Erastus Group SAS et Senegel structure d'accompagnement digitale basée à Dakar qui vise à renforcer ces prestations à l'intérieur du pays.
                     Cette rencontre était l'occasion de discuter des modalités dans la mise en place du campus numérique à keur innovation avec une double certification sénégalaise et française avec le partenaire Wyze Academy.
                     Erastus Académie se former devient un plaisir.`,
@@ -182,7 +194,7 @@ const albums = [
     {
       id: 9,
       title: 'CRD de la région de Ziguinchor',
-      category: 'Evenements',
+      category: 'Événements',
       date: '03 Mars 2026',
       description: `Dans le cadre des préparatifs du défilé du 04 avril et de la semaine nationale de la jeunesse prévue à thies, Erastus Group SAS a été convié à participer au CRD de la région de Ziguinchor présidée par le gouverneur, les autorités militaires et administratives de la localité le mardi 03 mars 2026 au complexe Aubert.
                     Erastus en tant que structure numérique accompagnera le comité régional dans l'encadrement des jeunes de la délégation.`,
@@ -226,7 +238,7 @@ const albums = [
     {
       id: 12,
       title: 'Journée portes ouvertes',
-      category: 'Formations',
+      category: 'Événements',
       date: '07 Février 2026',
       description: `Le samedi 07 février 2026, la team Agrosotech Sénégal en collaboration avec Erastus Group SAS ont organisé une journée portes ouvertes à Keur Innovation siège des startups.
                     Cette activité a été l'occasion de présenter les activités et offres de services de la structure.
@@ -276,8 +288,8 @@ const albums = [
     {
       id: 15,
       title: 'Bonne et Heureuse Année 2026',
-      category: 'Evenements',
-      date: '24 Decembre 2026',
+      category: 'Événements',
+      date: '1er Janvier 2026',
       description: `La team Erastus Group vous souhaite une bonne et heureuse année 2026.`,
       cover: images.image_anne_2026,
       media: [
@@ -290,12 +302,11 @@ const albums = [
     {
       id: 16,
       title: 'Joyeux Noël',
-      category: 'Evenements',
+      category: 'Événements',
       date: '24 Decembre 2025',
       description: `Joyeux Noël à tous avec la team Erastus Group `,
       cover: images.erastus,
       media: [
-        { type: 'image', url: images.jeunesse_catholique1 },
         {
           type: 'video',
           url: video.joyeux_noel
@@ -359,7 +370,7 @@ const albums = [
     {
       id: 20,
       title: 'Journée portes ouvertes 17 Septembre 2025',
-      category: 'Evenemwents',
+      category: 'Événements',
       date: '17 Septembre 2025',
       description: `Le mercredi 17 septembre 2025, Erastus Group a organisé une journée portes ouvertes pour présenter ces différentes offres de formations et d'accompagnement pour les jeunes,femmes et structures.
                     Cette journée de partages et d'échanges a permis aux participants de mieux connaître la structure et les opportunités.
@@ -429,7 +440,7 @@ const albums = [
     {
       id: 24,
       title: '1ere édition du forum de l\'entrepreneuriat',
-      category: 'Evenements',
+      category: 'Événements',
       date: '18-20 Juillet 2025',
       description: `1ere édition du forum de l'entrepreneuriat du 18 au 20 juillet 2025 à la Cathédrale de Ziguinchor sous le haut patronage de son Excellence Monseigneur Jean Baptiste Valter MANGA.
                     Cette activité de promotion de l'entrepreneuriat dans le diocèse avait comme objectif de mettre en exergue les potentialités entrepreneuriales de la localité.
@@ -506,7 +517,7 @@ const albums = [
     {
       id: 28,
       title: 'Session Link Up Africa',
-      category: 'Evenements',
+      category: 'Événements',
       date: '28-30 Avril 2025',
       description: `Erastus Group a participé à la Session Link Up Africa,organisée par L'L'Union européenne au Sénégal, AMCI( Agence marocaine de Coopération Internationale)et Enabel en partenariat avec CTIC Dakar/ Incubateur des TICS du 28 au 30 avril 2025.
                     Durant trois jours de formations  intenses en  renforcement de capacités, d'échanges de bonnes pratiques et de collaboration entre les structures d'accompagnement et les experts du Maroc et du Sénégal dans le domaine de l'incubation de startups et des TPME.
@@ -526,7 +537,7 @@ const albums = [
     {
       id: 29,
       title: 'Lancement du premier club code de la commune de Ziguinchor',
-      category: 'Evenements',
+      category: 'Événements',
       date: '28 Avril 2025',
       description: `Dans le cadre du projet tech for childs en partenariat avec Ktech Solutions, nous avons lancé le premier club code de la commune de Ziguinchor.
                     Ce club est destiné à accompagner les élèves du collège et lycée de Ziguinchor dans les domaines de scratch, robotique et IA.`,
@@ -544,7 +555,7 @@ const albums = [
     {
       id: 30,
       title: 'Projet "éleve entrepreneur"',
-      category: 'Fromations',
+      category: 'Formations',
       date: '24 Avril 2025',
       description: `Nos élèvepreneurs poursuivent leurs formations en entrepreneuriat , lancé depuis le mois d'avril ils travaillent dur  sur leurs idées afin de mieux comprendre leurs environnements.
                     Restez connecté pour la présentation de nos élèvespreneurs.`,
@@ -559,7 +570,7 @@ const albums = [
     {
       id: 31,
       title: 'Workshop Numérique',
-      category: 'Fromations',
+      category: 'Formations',
       date: '16-17 Avril 2025',
       description: `Erastus Group en partenariat avec Ktech solutions ont organisé un workshop numérique au profit des jeunes de Ziguinchor sur python mais aussi l'intégration de l'intelligence artificielle dans une application web ou mobile.
                     Cette formation constitue le premier pas du partenariat entre Erastus et Ktech Solutions pour accompagner la population de Ziguinchor dans le domaine du numérique.
@@ -626,9 +637,9 @@ const albums = [
     {
       id: 35,
       title: 'Reception des candidats du projet "élève entrepreneur "',
-      category: 'Formations',
+      category: 'Événements',
       date: '26 Mars 2025',
-      description: `Le mercredi 26 mars, l'équipe de @Erastus Group a reçu les candidats du projet "élève entrepreneur " des élèves qui avec des idées brillantes et innovantes souhaitent participer au développement local.
+      description: `Le mercredi 26 mars, l'équipe de Erastus Group a reçu les candidats du projet "élève entrepreneur " des élèves qui avec des idées brillantes et innovantes souhaitent participer au développement local.
                     Cette étape de sélection constitue la première phase du projet avant le début des activités en Avril pour une durée de 3 mois. 
                     Restez connecté.`,
       cover: images.reception_eleve_entrep_1,
@@ -718,7 +729,7 @@ const albums = [
     {
       id: 40,
       title: 'Journée porte ouverte Janvier 2025',
-      category: 'Formations',
+      category: 'Événements',
       date: '31 Janvier 2025',
       description: `Ce fut une journée mémorable lors de notre porte ouverte, où nous avons eu le plaisir de rencontrer de futurs étudiants et de partager nos programmes de formation 🎓. Un moment fort a été la remise des attestations de formation à nos étudiants, symbolisant leur engagement et leurs réussites 🏅. Nous sommes fiers de les accompagner dans leur parcours et de les voir progresser avec enthousiasme 💪. Merci à tous ceux qui ont participé et contribué à la réussite de cet événement 🙏.`,
       cover: images.journee_31_jan_1,
@@ -734,7 +745,7 @@ const albums = [
     {
       id: 41,
       title: 'Visite à Univers Casa Bio et à Expresso',
-      category: 'Formations',
+      category: 'Événements',
       date: '27-28 Janvier 2025',
       description: `Retour en images sur nos visites d’entreprises ! 📸
                     Dans le cadre du programme de formation Kaay Tagatu, Erastus a organisé deux visites enrichissantes pour nos étudiants :

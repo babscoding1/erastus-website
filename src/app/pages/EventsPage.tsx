@@ -252,9 +252,9 @@ export function EventsPage() {
             <p className="text-xl text-gray-300 mb-8">
               Vous avez un projet d'événement tech? Nous pouvons vous aider à le réaliser.
             </p>
-            <button className="px-8 py-4 bg-[#F59E0B] text-white rounded-lg font-medium hover:bg-[#D97706] transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+            <a href='/contact' className="px-8 py-4 bg-[#F59E0B] text-white rounded-lg font-medium hover:bg-[#D97706] transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
               Nous contacter
-            </button>
+            </a>
           </motion.div>
         </div>
       </section>

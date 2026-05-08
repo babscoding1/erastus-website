@@ -274,7 +274,7 @@ import visite_casa_bio_expresso_5 from "../imports/Evenements/Visite à Univers 
 import visite_casa_bio_expresso_6 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/6.jpg"
 import visite_casa_bio_expresso_7 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/7.jpg"
 import visite_casa_bio_expresso_8 from "../imports/Evenements/Visite à Univers Casa Bio et à Expresso/8.jpg"
-////Week-end Numérique du 25 janvier 2025
+//Week-end Numérique du 25 janvier 2025
 import week_end_num_25_janv_1 from "../imports/Evenements/Week-End Numerique/25 janvier 2025/1.jpg"
 import week_end_num_25_janv_2 from "../imports/Evenements/Week-End Numerique/25 janvier 2025/2.jpg"
 import week_end_num_25_janv_3 from "../imports/Evenements/Week-End Numerique/25 janvier 2025/3.jpg"
@@ -286,7 +286,17 @@ import O_corner_sen_1 from "../imports/Evenements/Partenariat Senegel/Paertenari
 import O_corner_sen_2 from "../imports/Evenements/Partenariat Senegel/Paertenariat Orange Corners Senegal/2.jpg"
 import O_corner_sen_3 from "../imports/Evenements/Partenariat Senegel/Paertenariat Orange Corners Senegal/3.jpg"
 import O_corner_sen_4 from "../imports/Evenements/Partenariat Senegel/Paertenariat Orange Corners Senegal/4.jpg"
-
+//premier pique nique Brin
+import premier_pique_nique_Brin_1 from "../imports/Evenements/Pique-Nique Brin/Premier/1.jpeg"
+import premier_pique_nique_Brin_2 from "../imports/Evenements/Pique-Nique Brin/Premier/2.jpeg"
+import premier_pique_nique_Brin_3 from "../imports/Evenements/Pique-Nique Brin/Premier/3.jpeg"
+import premier_pique_nique_Brin_4 from "../imports/Evenements/Pique-Nique Brin/Premier/4.jpeg"
+import premier_pique_nique_Brin_5 from "../imports/Evenements/Pique-Nique Brin/Premier/5.jpeg"
+import premier_pique_nique_Brin_6 from "../imports/Evenements/Pique-Nique Brin/Premier/6.jpeg"
+import premier_pique_nique_Brin_7 from "../imports/Evenements/Pique-Nique Brin/Premier/7.jpeg"
+import premier_pique_nique_Brin_8 from "../imports/Evenements/Pique-Nique Brin/Premier/8.jpeg"
+import premier_pique_nique_Brin_9 from "../imports/Evenements/Pique-Nique Brin/Premier/9.jpeg"
+import premier_pique_nique_Brin_10 from "../imports/Evenements/Pique-Nique Brin/Premier/10.jpeg"
 
 export const images = {
   couverture,
@@ -577,4 +587,15 @@ export const images = {
     O_corner_sen_2,
     O_corner_sen_3,
     O_corner_sen_4,
+    //premier pique nique Brin
+    premier_pique_nique_Brin_1,
+    premier_pique_nique_Brin_2,
+    premier_pique_nique_Brin_3,
+    premier_pique_nique_Brin_4,
+    premier_pique_nique_Brin_5,
+    premier_pique_nique_Brin_6,
+    premier_pique_nique_Brin_7,
+    premier_pique_nique_Brin_8,
+    premier_pique_nique_Brin_9,
+    premier_pique_nique_Brin_10,
 };

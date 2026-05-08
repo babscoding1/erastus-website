@@ -1,6 +1,6 @@
 import formation from "../imports/Evenements/video/formaion.mp4";
 import presentation_kay_tagatou from "../imports/Formations/Presentation Kay Tagatou.mp4";
-import premier_pique_nique_Brin from "../imports/Evenements/Pique-Nique Brin/Tech for child Avril.mp4";
+import premier_pique_nique_Brin from "../imports/Evenements/Pique-Nique Brin/Premier/Tech for child Avril.mp4";
 //Bonne et Heureuse Année 2026
 import bonne_annee_2026 from "../imports/Evenements/Souhait de fete/Nouvelle annee 2026.mp4"
 //Joyeux Noël
